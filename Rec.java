@@ -34,11 +34,14 @@ public class Rec {
 	public static String reverse(String s) {
 	
 
-	xxxxxxx // fill me in
-	
-	}
-
-    public static void main(String[] args) {
+ if(s.length()==0)return"";
+ 		return reverse(s.substring(1))+String.valueOf(s.charAt(0));
+				// fill me in
+						
+  
+  
+}
+  public static void main (String[] args) {
         System.out.println(numDigits(123));
         System.out.println(numDigits(123456));
         System.out.println(numDigits(1));
